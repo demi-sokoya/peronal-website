@@ -10,9 +10,9 @@ const FullScreenSection = ({
 	...boxProps
 }: FullScreenSectionProps) => (
 	<Box
-		py={{ base: "48px", md: "80px" }}
-		px={{ base: "20px", md: "40px" }}
-		maxWidth="900px"
+		py={{ base: "3rem", md: "5rem" }}
+		px={{ base: "1.25rem", md: "2.5rem" }}
+		maxWidth="min(56.25rem, 90vw)"
 		margin="0 auto"
 		{...boxProps}>
 		{children}
