@@ -1,0 +1,36 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+:root {
+	--bg: #f5f2ec;
+	--surface: #edeae2;
+	--ink: #1a1916;
+	--ink-2: #6b6860;
+	--ink-3: #a8a59f;
+	--accent: #c84b2f;
+	--accent-light: #f5e8e4;
+	--border: rgba(26, 25, 22, 0.1);
+	--border-strong: rgba(26, 25, 22, 0.2);
+	--serif: "DM Serif Display", Georgia, serif;
+	--sans: "Instrument Sans", sans-serif;
+	--mono: "DM Mono", monospace;
+	--r: 10px;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: var(--sans);
+	background: var(--bg);
+	color: var(--ink);
+	font-size: 100%; /* inherits browser default (16px) — respects user preference */
+	line-height: 1.6;
+	-webkit-font-smoothing: antialiased;
+}
