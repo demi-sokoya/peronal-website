@@ -1,3 +1,6 @@
+import weatherly from "@/images/weatherly.png";
+import littleLemon from "@/images/little-lemon.png";
+
 export interface Project {
 	id: number;
 	featured: boolean;
@@ -5,6 +8,7 @@ export interface Project {
 	title: string;
 	desc: string;
 	stack: string[];
+	imageSrc: string;
 	live: string;
 	repo: string;
 }
@@ -39,6 +43,7 @@ export const projects: ProjectItem[] = [
 		title: "Weatherly",
 		desc: "A responsive weather app with live forecasts, hourly scrolling, and dynamic city photography pulled straight from Wikipedia.",
 		stack: ["React", "Javascript", "CSS", "REST APIs", "Wikipedia API", "Git"],
+		imageSrc: weatherly,
 		live: "https://demi-sokoya.github.io/weather-app/",
 		repo: "https://github.com/demi-sokoya/weather-app",
 	},
@@ -58,6 +63,7 @@ export const projects: ProjectItem[] = [
 			"Git",
 			"CSS",
 		],
+		imageSrc: littleLemon,
 		live: "http://demi-sokoya.github.io/little-lemon-restaurant",
 		repo: "http://github.com/demi-sokoya/little-lemon-restaurant",
 	},
