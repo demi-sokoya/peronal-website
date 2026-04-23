@@ -1,4 +1,3 @@
-import React from "react";
 import type { Project } from "@/data";
 import { Box, Heading, HStack, Image, Link, Text } from "@chakra-ui/react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
