@@ -20,13 +20,16 @@ const RegularCard = ({ project }: ProjectCardProps) => (
 			borderColor: "var(--border-strong)",
 			transform: "translateY(-2px)",
 		}}>
-		<Image
-			src={project.imageSrc}
-			alt={project.title}
-			width="100%"
-			aspectRatio="16/9"
-			objectFit="cover"
-		/>
+		<Box p={2}>
+			<Image
+				src={project.imageSrc}
+				alt={project.title}
+				width="100%"
+				aspectRatio="16/9"
+				objectFit="cover"
+				borderRadius="4px"
+			/>
+		</Box>
 		<Box p={4}>
 			<Text
 				fontFamily="var(--mono)"
