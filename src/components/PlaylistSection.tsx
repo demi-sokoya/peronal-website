@@ -31,15 +31,14 @@ const PlaylistSection = () => {
 						letterSpacing="-0.03em"
 						mb="0.75rem"
 						lineHeight={1.15}>
-						The soundtrack to a{" "}
+						Somehow{" "}
 						<Box as="em" fontStyle="italic" color="var(--accent)">
-							late night
+							Florence + the Machine
 						</Box>{" "}
-						PR review.
+						and Wizkid ended up in the same playlist.
 					</Box>
 					<Text fontSize="0.875rem" color="var(--ink-2)" lineHeight={1.7}>
-						Mostly ambient, some post-rock, the occasional thing that doesn't
-						fit but just works. Updated when I remember to.
+						It works. I don't question it.
 					</Text>
 				</Box>
 
