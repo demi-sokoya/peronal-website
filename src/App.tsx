@@ -1,3 +1,4 @@
+import ContactSection from "./components/ContactSection";
 import Header from "./components/Header";
 import HeroSection from "./components/HeroSection";
 import PlaylistSection from "./components/PlaylistSection";
@@ -12,6 +13,7 @@ function App() {
 			<ProjectsSection />
 			<ResumeSection />
 			<PlaylistSection />
+			<ContactSection />
 		</>
 	);
 }
