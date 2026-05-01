@@ -1,4 +1,4 @@
-import { Box, Text } from "@chakra-ui/react";
+﻿import { Box, Text } from "@chakra-ui/react";
 import FullScreenSection from "@/components/FullScreenSection";
 
 const PlaylistSection = () => {
@@ -20,7 +20,7 @@ const PlaylistSection = () => {
 
 			<Box
 				display="grid"
-				gridTemplateColumns="1fr 1fr"
+				gridTemplateColumns={{ base: "1fr", md: "1fr 1fr" }}
 				gap="2.5rem"
 				alignItems="center">
 				{/* Text side */}
@@ -42,7 +42,6 @@ const PlaylistSection = () => {
 					</Text>
 				</Box>
 
-				{/* Spotify embed — theme=0 is dark, theme=1 is light */}
 				<Box borderRadius="12px" overflow="hidden" height="22rem">
 					<iframe
 						data-testid="embed-iframe"
