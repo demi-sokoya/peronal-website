@@ -20,12 +20,12 @@ const contactLinks: ContactLink[] = [
 	{
 		label: "Github",
 		href: "https://github.com/demi-sokoya",
-		icon: faLinkedin,
+		icon: faGithub,
 	},
 	{
 		label: "LinkedIn",
 		href: "https://www.linkedin.com/in/dsokoya/",
-		icon: faGithub,
+		icon: faLinkedin,
 	},
 ];
 
