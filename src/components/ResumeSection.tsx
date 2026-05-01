@@ -42,10 +42,7 @@ const ResumeSection = () => {
 				</Box>
 				<Box flex={1} minWidth={0}>
 					<Text>Demi Sokoya - Resume</Text>
-					<Text>
-						Front-end developer, illustrator &amp; UX Designer · PDF, updated
-						Apr 2026
-					</Text>
+					<Text>Front-end developer, UX Designer · PDF, updated Apr 2026</Text>
 				</Box>
 				<Link
 					href="/demi_sokoya_resume.pdf"
