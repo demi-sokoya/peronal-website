@@ -22,28 +22,33 @@ const ResumeSection = () => {
 			</Box>
 
 			{/* Resume Download Card */}
-			<HStack
+			<Box
 				background="var(--surface)"
 				border="1px solid var(--border)"
 				borderRadius="var(--r)"
-				p="1.5rem"
-				gap="1.5rem"
-				maxWidth="33.75rem">
-				<Box
-					width="2.875rem"
-					height="2.875rem"
-					flexShrink={0}
-					background="var(--accent-light)"
-					borderRadius="10px"
-					display="flex"
-					alignItems="center"
-					justifyContent="center">
-					<FontAwesomeIcon icon={faFile} color="var(--accent)" />
-				</Box>
-				<Box flex={1} minWidth={0}>
-					<Text>Demi Sokoya - Resume</Text>
-					<Text>Front-end developer, UX Designer · PDF, updated Apr 2026</Text>
-				</Box>
+				p="1.25rem"
+				maxWidth="33.75rem"
+				display="flex"
+				flexDirection={{ base: "column", sm: "row" }}
+				alignItems={{ base: "flex-start", sm: "center" }}
+				gap="1rem">
+				<HStack gap="1rem" flex={1} minWidth={0} alignItems="center">
+					<Box
+						width="2.875rem"
+						height="2.875rem"
+						flexShrink={0}
+						background="var(--accent-light)"
+						borderRadius="10px"
+						display="flex"
+						alignItems="center"
+						justifyContent="center">
+						<FontAwesomeIcon icon={faFile} color="var(--accent)" />
+					</Box>
+					<Box minWidth={0}>
+						<Text fontSize="0.875rem" fontWeight="500" overflow="hidden" textOverflow="ellipsis" whiteSpace="nowrap">Demi Sokoya - Resume</Text>
+						<Text fontSize="0.75rem" color="var(--ink-3)">Front-end developer, UX Designer · PDF, updated Apr 2026</Text>
+					</Box>
+				</HStack>
 				<Link
 					href="/demi_sokoya_resume.pdf"
 					display="inline-flex"
@@ -61,7 +66,7 @@ const ResumeSection = () => {
 					<FontAwesomeIcon icon={faDownload} size="xs" />
 					Download
 				</Link>
-			</HStack>
+			</Box>
 
 			{/* Skills */}
 			<Box mt="2rem">

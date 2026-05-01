@@ -1,4 +1,4 @@
-import { projects, type GhostCard, type Project } from "@/data";
+﻿import { projects, type GhostCard, type Project } from "@/data";
 import FullScreenSection from "../FullScreenSection";
 import { Box, Text } from "@chakra-ui/react";
 import FeaturedCard from "./FeaturedCard";
@@ -38,7 +38,7 @@ const ProjectsSection = () => {
 			{(regular.length > 0 || ghosts.length > 0) && (
 				<Box
 					display="grid"
-					gridTemplateColumns="repeat(2, 1fr)"
+					gridTemplateColumns={{ base: "1fr", md: "repeat(2, 1fr)" }}
 					gap="1rem"
 					mt="1rem">
 					{regular.map((p) => (
@@ -76,3 +76,4 @@ const ProjectsSection = () => {
 };
 
 export default ProjectsSection;
+

@@ -16,7 +16,7 @@ const FeaturedCard = ({ project }: ProjectCardProps) => (
 		overflow="hidden"
 		background="var(--surface)"
 		display="grid"
-		gridTemplateColumns="1fr 1fr"
+		gridTemplateColumns={{ base: "1fr", md: "1fr 1fr" }}
 		transition="border-color 0.2s, transform 0.2s"
 		_hover={{
 			borderColor: "var(--border-strong)",
