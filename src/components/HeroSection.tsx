@@ -18,7 +18,7 @@ const HeroSection = () => {
 				alignItems="center"
 				gap="0.625rem">
 				<Box width="1.5rem" height="1px" background="var(--accent)" />
-				Front-end developer &amp; illustrator
+				Front-end developer &amp; UX Designer
 			</Box>
 
 			{/* Headline */}
@@ -34,7 +34,7 @@ const HeroSection = () => {
 				<Box as="em" color="var(--accent)" fontStyle="italic">
 					web,
 				</Box>{" "}
-				drawing the rest.
+				that feel good to use.
 			</Box>
 
 			{/* Sub-copy */}
@@ -44,8 +44,8 @@ const HeroSection = () => {
 				maxWidth="30rem"
 				mb="2.5rem"
 				lineHeight={1.7}>
-				I craft interfaces that feel good to use and illustrations that make
-				people look twice. Based in Calgary.
+				I craft interfaces that are fast, accessible, and considered. Based in
+				Calgary.
 			</Box>
 
 			{/* CTAs */}
