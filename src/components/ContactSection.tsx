@@ -13,8 +13,8 @@ interface ContactLink {
 
 const contactLinks: ContactLink[] = [
 	{
-		label: "hello@demi.dev",
-		href: "mailto:obademiladesokoya7@gmail.com",
+		label: "hello@demisokoya.dev",
+		href: "mailto:hello@demisokoya.dev",
 		icon: faEnvelope,
 	},
 	{
